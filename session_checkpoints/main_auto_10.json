@@ -1,0 +1,229 @@
+{
+  "name": "auto_10",
+  "timestamp": 1771090541.8520348,
+  "session_id": "main",
+  "context_items": [
+    {
+      "id": "00093975",
+      "content": "List files in current directory",
+      "type": "user_query",
+      "timestamp": 1771090504.7719324,
+      "relevance_score": 0.9998992547425958
+    },
+    {
+      "id": "66c0aa21",
+      "content": "Find all Python files in the current directory, check which ones import 'os', and create a report",
+      "type": "user_query",
+      "timestamp": 1771090300.372011,
+      "relevance_score": 0.40971584858270416
+    },
+    {
+      "id": "772c9ef1",
+      "content": {
+        "success": true,
+        "tool": "list_directory",
+        "result": {
+          "success": true,
+          "items": [
+            {
+              "name": "c",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "nonexistent.txt",
+              "type": "file",
+              "size": 34
+            },
+            {
+              "name": "os_imports_report.txt",
+              "type": "file",
+              "size": 21
+            },
+            {
+              "name": "report.txt",
+              "type": "file",
+              "size": 0
+            },
+            {
+              "name": "s",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "session_checkpoints",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "terminal_memory.json",
+              "type": "file",
+              "size": 176689
+            },
+            {
+              "name": "testbasic.py",
+              "type": "file",
+              "size": 3212
+            },
+            {
+              "name": "test_advanced.py",
+              "type": "file",
+              "size": 2370
+            }
+          ]
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090533.785575,
+      "relevance_score": 0.2999999965570039
+    },
+    {
+      "id": "86e8c347",
+      "content": {
+        "success": true,
+        "tool": "write_file",
+        "result": {
+          "success": true
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090492.2436585,
+      "relevance_score": 0.29985575379182894
+    },
+    {
+      "id": "2f0fc765",
+      "content": {
+        "success": true,
+        "tool": "read_file",
+        "result": {
+          "success": true,
+          "content": "This is a sample file."
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090492.2256587,
+      "relevance_score": 0.2998556912922197
+    },
+    {
+      "id": "7c40a941",
+      "content": {
+        "success": true,
+        "tool": "search_files",
+        "result": {
+          "success": true,
+          "matches": [
+            "D:\\MCPserver\\projects\\terminal\\nonexistent.txt"
+          ]
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090492.2086523,
+      "relevance_score": 0.2998556322422292
+    },
+    {
+      "id": "b8b8608e",
+      "content": "Read the file 'nonexistent.txt' and if it doesn't exist, create it with sample content",
+      "type": "user_query",
+      "timestamp": 1771090416.736838,
+      "relevance_score": 0.29959357733196684
+    },
+    {
+      "id": "3bc2d192",
+      "content": {
+        "success": true,
+        "tool": "write_file",
+        "result": {
+          "success": true
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090397.8820827,
+      "relevance_score": 0.2995281094312668
+    },
+    {
+      "id": "c52cb14c",
+      "content": {
+        "success": true,
+        "tool": "run_command",
+        "result": {
+          "success": false,
+          "error": "[WinError 2] The system cannot find the file specified",
+          "output": ""
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090397.8675373,
+      "relevance_score": 0.29952805892626444
+    },
+    {
+      "id": "ab2719f7",
+      "content": {
+        "success": true,
+        "tool": "search_files",
+        "result": {
+          "success": true,
+          "matches": [
+            "D:\\MCPserver\\projects\\terminal\\testbasic.py",
+            "D:\\MCPserver\\projects\\terminal\\test_advanced.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\agent.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\agentic_loop.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\agent_verbose.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\app.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\client.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\config.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\context_manager.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\execution_graph.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\memory.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\oagent.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\ollama_actual.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\ollama_llm.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\planner.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\policy.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\run.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\show.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\showdemo2.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\test.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\testapp.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\testapp2.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\tool_chain.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\f\\a.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\f\\aa.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\f\\run.py",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\agent.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\agentic_loop.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\agent_verbose.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\client.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\client.cpython-39.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\config.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\context_manager.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\execution_graph.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\memory.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\ollama_actual.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\ollama_llm.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\planner.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\policy.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\c\\__pycache__\\tool_chain.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\helper.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\mcp_instance.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\prompts.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\resources.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\server.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\state.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\tools.py",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\helper.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\mcp_instance.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\mcp_instance.cpython-39.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\prompts.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\resources.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\state.cpython-311.pyc",
+            "D:\\MCPserver\\projects\\terminal\\s\\__pycache__\\tools.cpython-311.pyc"
+          ]
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771090397.8393598,
+      "relevance_score": 0.29952796108772356
+    }
+  ],
+  "item_count": 10
+}

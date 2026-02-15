@@ -1,0 +1,315 @@
+{
+  "name": "auto_10",
+  "timestamp": 1771158450.0850582,
+  "session_id": "main",
+  "context_items": [
+    {
+      "id": "0af0cadf",
+      "content": "hi",
+      "type": "user_query",
+      "timestamp": 1771158441.3965545,
+      "relevance_score": 0.9999740474530392
+    },
+    {
+      "id": "c9bf605c",
+      "content": "hi",
+      "type": "user_query",
+      "timestamp": 1771158410.8552425,
+      "relevance_score": 0.9998680012308888
+    },
+    {
+      "id": "4c007ed6",
+      "content": "hi",
+      "type": "user_query",
+      "timestamp": 1771158387.7712562,
+      "relevance_score": 0.9997878485007418
+    },
+    {
+      "id": "116599e7",
+      "content": {
+        "success": true,
+        "tool": "system_info",
+        "result": {
+          "success": true,
+          "system": "Windows",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python_version": "3.11.14",
+          "cpu_count": 12,
+          "cwd": "D:\\MCPserver\\projects\\terminal\\c"
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771158448.8698754,
+      "relevance_score": 0.29999999648415376
+    },
+    {
+      "id": "4382d8ee",
+      "content": {
+        "success": true,
+        "tool": "write_file",
+        "result": {
+          "success": true
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771158422.7373953,
+      "relevance_score": 0.29990925870587426
+    },
+    {
+      "id": "36bc127d",
+      "content": {
+        "success": true,
+        "tool": "run_command",
+        "result": {
+          "success": false,
+          "error": "[WinError 2] The system cannot find the file specified",
+          "output": ""
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771158422.7023845,
+      "relevance_score": 0.29990913714054557
+    },
+    {
+      "id": "afdbfafd",
+      "content": {
+        "success": true,
+        "tool": "list_directory",
+        "result": {
+          "success": true,
+          "items": [
+            {
+              "name": ".mcp_backups",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "a.py",
+              "type": "file",
+              "size": 58487
+            },
+            {
+              "name": "agent.py",
+              "type": "file",
+              "size": 13841
+            },
+            {
+              "name": "agentic_loop.py",
+              "type": "file",
+              "size": 12621
+            },
+            {
+              "name": "agent_verbose.py",
+              "type": "file",
+              "size": 59027
+            },
+            {
+              "name": "app.py",
+              "type": "file",
+              "size": 11240
+            },
+            {
+              "name": "chatbot_demo.py",
+              "type": "file",
+              "size": 107
+            },
+            {
+              "name": "client.py",
+              "type": "file",
+              "size": 14565
+            },
+            {
+              "name": "code_quality_report.txt",
+              "type": "file",
+              "size": 3195
+            },
+            {
+              "name": "config.py",
+              "type": "file",
+              "size": 5976
+            },
+            {
+              "name": "context_manager.py",
+              "type": "file",
+              "size": 7087
+            },
+            {
+              "name": "execution_graph.py",
+              "type": "file",
+              "size": 903
+            },
+            {
+              "name": "f",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "ff.py",
+              "type": "file",
+              "size": 58847
+            },
+            {
+              "name": "imported_libraries.txt",
+              "type": "file",
+              "size": 178
+            },
+            {
+              "name": "imported_libraries_report.txt",
+              "type": "file",
+              "size": 2
+            },
+            {
+              "name": "mcp_conversations.db",
+              "type": "file",
+              "size": 40960
+            },
+            {
+              "name": "memory.py",
+              "type": "file",
+              "size": 1701
+            },
+            {
+              "name": "o.py",
+              "type": "file",
+              "size": 49767
+            },
+            {
+              "name": "oagent.py",
+              "type": "file",
+              "size": 950
+            },
+            {
+              "name": "ollama_actual.py",
+              "type": "file",
+              "size": 3213
+            },
+            {
+              "name": "ollama_llm.py",
+              "type": "file",
+              "size": 21914
+            },
+            {
+              "name": "palindrome_checker.py",
+              "type": "file",
+              "size": 0
+            },
+            {
+              "name": "performance_metrics_report.txt",
+              "type": "file",
+              "size": 213
+            },
+            {
+              "name": "planner.py",
+              "type": "file",
+              "size": 16318
+            },
+            {
+              "name": "policy.py",
+              "type": "file",
+              "size": 5387
+            },
+            {
+              "name": "run.py",
+              "type": "file",
+              "size": 18335
+            },
+            {
+              "name": "session_checkpoints",
+              "type": "dir",
+              "size": null
+            },
+            {
+              "name": "show.py",
+              "type": "file",
+              "size": 273
+            },
+            {
+              "name": "showdemo2.py",
+              "type": "file",
+              "size": 3381
+            },
+            {
+              "name": "t.py",
+              "type": "file",
+              "size": 43789
+            },
+            {
+              "name": "terminal_memory.json",
+              "type": "file",
+              "size": 722536
+            },
+            {
+              "name": "test.py",
+              "type": "file",
+              "size": 39440
+            },
+            {
+              "name": "testapp2.py",
+              "type": "file",
+              "size": 36788
+            },
+            {
+              "name": "tool_chain.py",
+              "type": "file",
+              "size": 7096
+            },
+            {
+              "name": "z.py",
+              "type": "file",
+              "size": 58847
+            },
+            {
+              "name": "__pycache__",
+              "type": "dir",
+              "size": null
+            }
+          ]
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771158410.9823256,
+      "relevance_score": 0.2998684424915247
+    },
+    {
+      "id": "c805ce60",
+      "content": {
+        "success": true,
+        "tool": "system_info",
+        "result": {
+          "success": true,
+          "system": "Windows",
+          "platform": "Windows-10-10.0.26200-SP0",
+          "python_version": "3.11.14",
+          "cpu_count": 12,
+          "cwd": "D:\\MCPserver\\projects\\terminal\\c"
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771158410.919452,
+      "relevance_score": 0.299868224180407
+    },
+    {
+      "id": "1e48d0c6",
+      "content": {
+        "success": true,
+        "tool": "run_command",
+        "result": {
+          "success": false,
+          "error": "[WinError 2] The system cannot find the file specified",
+          "output": ""
+        }
+      },
+      "type": "tool_result",
+      "timestamp": 1771157950.2747977,
+      "relevance_score": 0.298268763575289
+    },
+    {
+      "id": "fa646f54",
+      "content": "hiiii",
+      "type": "user_query",
+      "timestamp": 1771157908.2442706,
+      "relevance_score": 0.298122824245029
+    }
+  ],
+  "item_count": 10
+}
